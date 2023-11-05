@@ -22,8 +22,8 @@ LDFLAGS=-s
 LIBS=-lcurses
 DEFINES=-DPROGRAM=$(PROGRAM) -D_GNU_SOURCE # -DNDEBUG
 
-BINDIR=/usr/bin
-LIBDIR=/usr/lib
+BINDIR=/usr/local/bin
+LIBDIR=/usr/local/lib
 
 SRCS = $(sort $(wildcard *.c))
 
